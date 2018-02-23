@@ -1,0 +1,225 @@
+/*
+    Theme Name: Business Theme using Rest API
+    Author: Rohit Yadav
+    Author URI: http://rohityadav9.com
+    Version: 0.0.1
+    Description: Clean and SEO freindly Worpdress Theme built on the top of Bootstrap 4 and Core functionality of Wordpress
+    
+*/
+body {
+  padding-top: 1.5rem;
+  font-size: 15px;
+  color: #7a7a7a;
+  line-height: 1.7em;
+}
+a{
+  color: #0faf97;
+}
+.btn-primary{
+  background: #0faf97;
+  color: #fff;
+  border-color: #fff;
+  text-transform: uppercase;
+}
+.btn-primary:hover{
+  background: #fff;
+  color: #0faf97;
+  border-color: #07af97;
+}
+
+.btn-primary-reverse{
+  background: #fff;
+  color: #0faf97;
+  border-color: #07af97;
+}
+.btn-primary-reverse:hover{
+    background: #0faf97;
+    color: #fff;
+    border-color: #fff;
+    text-transform: uppercase;
+}
+
+.container{
+  max-width: 1020px;
+}
+.nav-link:hover {
+    text-decoration: none;
+    background: #f4f4f4;
+}
+.nav-pills> li:active> a,
+.nav-pills> li:active> a:focus,
+.nav-pills .nav-link.active,
+ .show > .nav-pills .nav-link{
+  background: #0faf97;
+}
+.menu-item.active a {
+    color: #FFF;
+}
+
+.menu-item.active {
+    background: #0faf97;
+    color: #fff;
+}
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+.jumbotron{
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 90px;
+  padding-bottom: 90px;  
+  color: #fff;
+  border-radius: unset;
+}
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+article.post img{
+  width: 100%;
+}
+
+.block {
+    text-align: center;
+    border: 1px solid #07af97;
+    padding: 20px 20px 30px 20px;
+}
+.block h3
+{
+  color: #07af97;
+}
+.fa{
+  color: #07af97;
+}
+.marketing {
+    margin-bottom: 30px;
+}
+.content-region-1{
+  background:#0faf97;
+  color:#ffffff;
+  text-align: center;
+}
+
+.content-region-2{
+  background:#f4f4f4;
+  color:#333333;
+}
+.content-region-2 img{
+  width: 100%;
+}
+.content-region-3{
+  background:#000000;
+  color:#ffffff;
+}
+.pt20{padding-top:20px;}
+.pb20{padding-bottom:20px;}
+.pt30{padding-top:30px;}
+.pb30{padding-bottom:30px;}
+.pt40{padding-top:40px;}
+.pb40{padding-bottom:40px;}
+.pt50{padding-top:50px;}
+.pb50{padding-bottom:50px;}
+.pt60{padding-top:60px;}
+.pb60{padding-bottom:60px;}
+.content-region-3 h4{
+  border-left:5px #0faf97 solid;
+  padding-left:8px;
+  margin-bottom:20px;
+}
+
+.content-region-1 h1, .content-region-2 h1{
+  margin:0;
+  padding:0;
+  padding-bottom:15px;
+  font-size:40px;
+}
+
+.content-region-3 form input[type="text"], .content-region-3 form textarea{
+  width:100%;
+  padding:5px;
+  background:#333;
+  color:#fff;
+  margin-bottom:10px;
+  border:0;
+}
+.side-widget{
+  margin-bottom:40px;
+}
+
+.side-widget h3{
+  border-left:5px #0faf97 solid;
+  padding-left:10px;
+  margin-bottom:15px;
+}
+.title-bar{
+  background:#0faf97;
+  color:#ffffff;
+  padding-bottom:10px;
+  border-bottom:6px #ddd solid;
+  margin-bottom: 30px;
+}
+article.post{
+  border-bottom: 1px #ccc solid;
+  overflow:auto;
+  padding-bottom:30px;
+  margin-bottom: 40px;
+}
+
+
+article.post .meta{
+  border-top:#ccc solid 1px;
+  border-bottom:#ccc solid 1px;
+  overflow:auto;
+  list-style: none;
+  margin:0;
+  padding:5px 0;
+  width: 100%;
+}
+
+article.post .meta li{
+  float:left;
+  margin-right:20px;
+}
+
+article.post img{
+  width:100%;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.list-group.custom-list li {
+    list-style: none;
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.post-list:hover {
+    box-shadow: unset;
+    transition: .5s;
+}
+
+.post-list {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 21px;
+    box-shadow: 0px 2px 10px 1px #34495e;
+    transition: .5s;
+    margin-top: 10px;
+}
+.post-list h2:hover
+{
+	cursor:pointer;
+}
